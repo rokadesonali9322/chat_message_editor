@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: #f9f9f9;
+}
+/* message file desgin */
+h1 {
+  text-align: center;
+  color: #626262;
+}
+.message {
+  height: 18vh;
+  width: 60vw;
+  display: block;
+  margin: 0 auto;
+  background-color: #f5f9fc;
+  position: relative;
+  border-radius: 6px;
+}
+.msgbox {
+  height: 8vh;
+  width: 100%;
+  position: absolute;
+  top: 2.8rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 6px;
+  padding-bottom: 30px;
+}
+.tab {
+  display: flex;
+}
+.tab h5 {
+  margin-top: 10px !important;
+  padding: 0 0 0 2rem;
+  font-size: 1.4rem;
+}
+.msgbox textarea {
+  border-radius: none !important;
+  outline: none;
+  height: 2rem;
+  font-size: 17px;
+  width: 57.8vw;
+  border: none;
+  font-weight: normal;
+  padding-left: 2rem;
+  padding-top: 5px;
+  resize: none;
+  font-style: normal;
+}
+.msgbox textarea::placeholder {
+  font-size: 17.5px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+.mainicon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  color: #7d7d7d;
+}
+
+.file {
+  display: flex;
+}
+
+/* tab */
+.tab {
+  color: #a2a9af;
+}
